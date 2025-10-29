@@ -4,7 +4,7 @@ import { FaEdit } from "react-icons/fa";
 import dayjs from 'dayjs';
 const Record = ({users, deleteDB, editRecord}) => {
 
-    //console.log(users)
+   
   return (
   <div className="p-6">
   <div className="overflow-x-auto rounded-2xl shadow-lg border border-gray-200 bg-white">

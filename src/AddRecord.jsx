@@ -36,7 +36,7 @@ const AddRecord = ({name, setName, email, setEmail, age, setAge, submitRecord, t
 
                 <button
                     type="submit "
-                    className={` w-full py-3   text-white font-medium rounded-xl transition cursor-pointer ${toggle ? 'bg-green-700 hover:bg-green-800' : 'bg-blue-500 hover:bg-blue-600'}`}
+                    className={` w-full py-3   text-white font-medium rounded-xl transition cursor-pointer ${toggle ? 'bg-green-7   00 hover:bg-green-800' : 'bg-blue-500 hover:bg-blue-600'}`}
                 >
                     {toggle ? "Save" : "Submit"}
                 </button>
